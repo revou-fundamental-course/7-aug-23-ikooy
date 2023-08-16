@@ -1,0 +1,48 @@
+h1{
+    margin-left: 510px;
+}
+h6{
+    margin-left: 545px;
+    margin-bottom: 10px;
+
+}
+header{
+    background-color: aqua;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+.input{    display: flex;
+    flex-direction: column;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-weight: bold;
+}
+input{
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid blue
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 4%;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(135, 135, 236);
+    color: wheat;
+}
+button:hover{
+    background-color: rgb(70, 68, 174);
+}
+button:active{
+    transform: translateY(2px);
+    background-color: (70, 68, 174);
+}
